@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>In ra tam giác</title>
+</head>
+<body>
+  <div class="container">
+      <h1 class="title">Nhập số nguyên từ 1-10 in ra hình tam giác</h1>
+      <form>
+        <label for="number-a">Nhập số nguyên(1-10):</label>
+        <input type="number" id="number-a" name="number-a" min="1" max="10" required>
+        <button type="button" id="submit-button" onclick="printTriangle()">In ra một hình tam giác</button>
+      </form>
+      <div id="result"></div>    
+      <!-- End: -->
+</div>
+    <script src="./app.js"></script>
+</body>
+</html>
