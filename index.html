@@ -4,20 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>In ra tam giác</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <div class="container">
-      <h1 class="title">Nhập số nguyên từ 1-10 in ra hình tam giác</h1>
-      <form>
-        <label for="number-a">Nhập số nguyên(1-10):</label>
-        <input type="number" id="number-a" name="number-a" min="1" max="10" required>
-        <button type="button" id="submit-button" onclick="printTriangle()">In ra một hình tam giác</button>
-      </form>
-      <div id="result"></div>    
-      <!-- End: -->
-</div>
-    <script src="./app.js"></script>
+    <div class ="o vuong">
+        <div class ="khung bu">
+            <h1> Users</h1>
+            <div class="khung nho">
+              <div class="search bar">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              <p> Search users</p>
+            </div>
+              <div class="thanh giaodien">
+                  <li><a>Reputation</a>
+                  <li><a>New Users</a>
+                  <li><a>Voters</a>
+                  <li><a>Editors</a>
+                  <li><a>Moderators</a> 
+                </div>
+         </div>
+    </div>
+    <div class="container">
+         <div class="card">
+            <div class="content">
+                <div class="img8x">
+                    <img src="https://s3-alpha-sig.figma.com/img/f7ff/f537/1cfe5c1bcc03b9b81c2d7b42f5828a59?Expires=1682294400&Signature=caO08-ZJsNHJiBtBPAtiskeQIg-MzB3ZCasfDXz0LarjUCSjI3t7mI9xlH84b1hhfzRHLW~bQaee68IXFtzoBbrbWQRl9guyYSkoLXRhxnBe6KaSZGCNXnK0lAv-aQtbkf12fq71FoKi-YjHH0TaC9RYdcOHzz53cG4B8oOjZXxc5jdtXxIaiWHjmZtukxzox0PYHKsC9zFnLV692caEm89NJwhJxWK7ZsG9AHk96DOwDk9ILtK9XVDuArRSzbAcVZySElYjsMXHAdZ0UUdxFK-7zAmlabAZ14vlRs0aN3wHR0wbB1aH306OW1-wHNM50VxSPI2CZuPW5Cox36TnUw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"height="97px" width="97px" alt="" />
+                </div>
+                <div class="content8x">
+                    <h4><b>Lelah Nichols</b></h4>
+                    <h5>Troy,MI</h5>
+                </div>
+            </div>
+           
+          
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="img8x">
+                    <img src="https://s3-alpha-sig.figma.com/img/41ed/baf1/225faee70e15159236035178cca54a11?Expires=1682294400&Signature=PtHE6Aie8BU~50fLgB8FOKxOMTNega9T0IYlqpH8Ay765rwdOe7T3DwfuH0JY0I~qnBl~ke3QQGrv~sLjXkgAiEACZM-jVey1sZxZlwYlJO6Q~gx8pJkBgKTwCMl8NCg54TcfRDAJt2doBokfiDUfxOOOADT73p8BgzjaYdOVLcQkn1P7Tk8~6VlFX2eEbQr4p5Nc9dzfPmZbFreP3BjsOwg8lbz4WsPddavyj~NXz6t5YzWVRd2QQOrvl0elDl3LIupIY9~ed10lQ3sGUhqwhwWV2KdGJyLV1yOD3MEUqhzCokS4miyfT4JghvJLntkHsnvV1WqAKyKh3ysP7ryIA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"height="97px" width="97px" alt="" />
+                </div>
+                <div class="content8x">
+                    <h4>Jesus Weiss</h4>
+                    <h5>Fort Worth, TX</h5>
+                </div>
+            </div>
+           
+          
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="img8x">
+                    <img src="https://s3-alpha-sig.figma.com/img/afd7/fd08/2942944e4e7e80e66c97c9b4491b1092?Expires=1682294400&Signature=aLxurLy4keVIwfhjImBARGgEjHB~2jDUPTaSyO8LWaY0R7bPVpd-NnRj9mGQPZjxSoelRHqStHq-zPBXl8rKR-tlYCA5J-slzq1pzp27p3nZ3UQcZAXeGVwL0C0EOCcs~gpldYB~9i8OWavArB85I9H2vx21eZd5KO2hYo6U14yxAuvgR~ylrolPPLb39U9n9oHoEwF6g8swBZQSBpwySQx~dYZPjGXJUmLGYN9ZHoMHdgZN~0UGdmEw1UCRx0Zmvw9hajjYhN8PjYenUPa3c04Ythq6FYgU~rtbMgfqLggnfMuCTZ3MoQEYJ86iEBk1ZyCFLMfTMW7Dnnm6Tx5oPQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"height="97px" width="97px" alt="" />
+                </div>
+                <div class="content8x">
+                    <h4>Annie Rice</h4>
+                    <h5>Austin,TX</h5>
+                </div>
+            </div>
+           
+          
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="img8x">
+                    <img src="https://s3-alpha-sig.figma.com/img/c81f/faee/d7f9f9b81bb8acfe93d3b739115d770e?Expires=1682294400&Signature=XTrloea42oQx2eIiIVzefxd29IC~BsxynZ~FtSU31qyn5wcJqWES8oSXiGpEi9nMDHmUA4z~I07pu9DYwm2GP6ILN0JLK-4CozBwfiL~miX-kyO-IzsBOGiITOWhMdcWTYRXq2wyXVbaKSpcgPhFGukDMv1pKsJWpW0FlEeTZAm5F1CGCy3obNLnAgHn8nmsfzpgQ8lfbnkveJ9FuAXsSmcgSMY4NzYq5Zr0bQxBbqmry7NFfMUoVRrDDlyAUu39NUB-lURmWjxUjFvLPaed6NaJv5do-OAIybvlUrGiwF-vXqp5joi-idUF5x4NQNomL276ThUuyQTNwPlnRjuTNA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"height="97px" width="97px" alt="" />
+                </div>
+                <div class="content8x">
+                    <h4>Robert Brower</h4>
+                    <h5>Cincinnati, OH</h5>
+                </div>
+            </div>
+           
+          
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="img8x">
+                    <img src="https://s3-alpha-sig.figma.com/img/11b3/77e8/6aa344879afba431d7cee9da5ee62cde?Expires=1682294400&Signature=RTkRXnO9eCc15Oxx5hnMPnQBru~TDyaqJIELmesZuuodW7ApDguzdWMijmyADaruAZ9eooSPnkkCo~xiakSoeXvzYADXm0nmR-ANdkvmRPk5236~5XV~~X0XHPJDXu6yk2XppFf5DDAhDvZU~ZM5YtcGySe7yUEW77cjSeSvxY2rZEqiar9Wasx8n0rIVoDMi-nHytZrqz8ZnPZtWEROyF728cu0D51NoeHRC71lRI2Erf1ctrdTzTvXkNHH8vxWu5GafGguRqEhmrtgj5nPUGS8krZ~FP7MPjb5iywjKfcunjbV~Hiw16eU9x7ySIjv4rq8V803Kepv7ZYq7Wu00A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"height="97px" width="97px" alt="" />
+                </div>
+                <div class="content8x">
+                    <h4>Amy Campbell</h4>
+                    <h5>Warrior, AL</h5>
+                </div>
+            </div>
+           
+          
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="img8x">
+                    <img src="https://s3-alpha-sig.figma.com/img/0507/db32/e190425c8e91ed35ab3894e77679cedd?Expires=1682294400&Signature=Ylk64LxKSt09p0Z5-CrjFVRgz8X8EHjrD-tuqXQigpP1ExYCjEm~GXg~JpDTijZas6BVSaelLmTB0BipOEN4IrPAdgHxoMKNInAhXmW68P6LZy5m8Bedp21bmFeEcxPdcCmFfpuwN1pU5a9xaFizXvmNd1z9waNTcJQw6I4zXnhLc-6m6JllWFmtJWEsZZt7PpFghbljLOJAyRcXbYu2JDY0JDc1w95yr-bFPIPYw-EjRzqGHDk40Nctrl6FnQBb2IM7mVimHjfHZia-vEMs~pTfZF2Lryy~xBg0pzLT2ez5CG50gqTDywL3P8yssPPp6VI7S-4rdah3sSsctmzOLw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"height="97px" width="97px" alt="" />
+                </div>
+                <div class="content8x">
+                    <h4>Anthony S. Morin</h4>
+                    <h5>Lyndhurst, NJ</h5>
+                </div>
+            </div>
+           
+          
+        </div>
+        
+
+        
+
+    </div>
+
 </body>
 </html>
